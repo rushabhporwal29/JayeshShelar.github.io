@@ -1,8 +1,144 @@
+<!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width-device-width" />
     <title>Student Portal</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <h1>Govt. of Sikkim</h1>
+    <div id="page-header-in">
+      <div id="logo-main">
+        <img src="/img/logo.png" alt="Government of Sikkim" />
+        <span>
+          School Education and Sports Department
+          <br />
+          <small>Government of Sikkim</small>
+        </span>
+      </div>
+
+      <div id="logo2">
+        Student Portal
+      </div>
+
+      <div id="emb">
+        <img src="/img/emblem.png" alt="Government of India" />
+      </div>
+
+      <div id="cm">
+        <img src="/img/cm.jpg" alt="Cheif Minister of Sikkim" />
+        <small>Shri.P.S.Golay<br />Cheif Minister</small>
+      </div>
+    </div>
+
+    <div id="content-main">
+      <div id="content">
+        <div id="main-menu2">
+          <a href="#">HOME</a>
+        </div>
+        <div id="right-content-area2">
+          <div id="main-div">
+            <div id="login-area">
+              <div id="login-block">
+                <div class="login-pagecontainer">
+                  <div id="login_title_bar">
+                    LOGIN PANEL
+                  </div>
+                  <div id="login-content">
+                    <form action="/pages/main_page.html">
+                      <h1>
+                        <img src="/img/lock.png" alt="Login" />
+                        Login Here
+                      </h1>
+                      <div class="input_container">
+                        <div class="login_icons login-username">
+                          <img src="/img/username.ico" alt="Login Icon" />
+                        </div>
+                        <div class="input-text">
+                          <input
+                            type="text"
+                            id="LoginValidationsUserId"
+                            name="data[LoginValidations][user_id]"
+                            placeholder="Username"
+                          />
+                        </div>
+                      </div>
+                      <div class="input_container">
+                        <div class="login_icons login-password">
+                          <img src="/img/password_inner.png" />
+                        </div>
+                        <div class="input-password">
+                          <input
+                            type="password"
+                            id="LoginValidationsPassword"
+                            name="data[LoginValidations][password]"
+                            autocomplete="off"
+                            placeholder="Password"
+                          />
+                        </div>
+                      </div>
+                      <div class="input_container">
+                        <span style="display: inline-block;">
+                          <div class="submit">
+                            <input
+                              type="submit"
+                              value="Login"
+                              class="loginSubmit"
+                              style="margin-left: 0px;"
+                            />
+                          </div>
+                        </span>
+                        <span style="display: inline-block;">
+                          <input
+                            type="reset"
+                            name="data[LoginValidations][Reset]"
+                            class="loginsubmit"
+                          />
+                        </span>
+                        <div id="processing">
+                          <div class="imgarea">
+                            <img src="/img/loading.gif" alt="Loading" />
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tabContainer">
+              <div id="tab6" class="tabContent">
+                <div id="main-text-cont">
+                  <div id="main-text-area">
+                    <p>
+                      Enter any content here!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tabContainer2">
+              <div id="tab7" class="tabContent2">
+                <div id="main-text-cont2">
+                  <div id="main-text-area2">
+                    <p>
+                      Enter any content here!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <footer id="footer">
+              Copyright © 2020 Department of Education. All rights reserved
+              Website Designed and Developed by Students of PCCOE.
+              <br />Data Provided by Department of Education, Government of
+              Sikkim<br />
+            </footer>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
